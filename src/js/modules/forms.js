@@ -51,6 +51,9 @@ const forms = (state) => {
                 .catch(() => statusMessage.textContent = message.failure)
                 .finally(() => {
                     clearInputs();
+                    for (let key in state) {
+                        delete state[key];
+                    }
                     setTimeout(() => {
                         statusMessage.remove();
                     }, 5000);

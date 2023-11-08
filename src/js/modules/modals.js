@@ -10,7 +10,7 @@ const modals = () => {
                 if (e.target) {
                     e.preventDefault();
                 }
-    
+
                 windows.forEach(item => {
                     item.style.display = "none";
                 });
