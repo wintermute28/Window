@@ -1827,6 +1827,12 @@ textarea:focus {
   .popup_calc_profile_button {
     padding: 1rem 5rem;
   }
+  .timer1 {
+    width: 100%;
+  }
+  .numbers1 {
+    font-size: 38px;
+  }
 }
 
 /* small devices, tablets */
